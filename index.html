@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Floral Dry Flower</title>
+
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script>
+        $(function(){
+        $('.active').click(function(){
+            $('.active img').attr('src', 'images/indi_05.png');
+        });
+
+        $('.pager img:nth-child(2)').click(function(){
+            $('.pager img:nth-child(2)').attr('src', 'images/indi_05.png');
+        });
+
+        $('.pager img:nth-child(3)').hover(function(){
+            $('.pager img:nth-child(3)').attr('src', 'images/indi_05.png');
+        });
+
+        $('.pager img:nth-child(4)').hover(function(){
+            $('.pager img:nth-child(4)').attr('src', 'images/indi_05.png');
+        });
+        $('.pager img:nth-child(5)').hover(function(){
+            $('.pager img:nth-child(5)').attr('src', 'images/indi_05.png');
+        });
+
+        });//ready end
+    </script>
+
+</head>
+<body>
+    <div id="wrap">
+            <header>
+                <div class="inner">
+                    <div class="logo">
+                        <img src="images/logo.png" alt="logo">
+                    </div><!--logo끝-->   
+                    <nav class="nav1">
+                        <ul>
+                            <li><a href=#>about us</a></li>
+                            <li><a href=#>herb</a></li>
+                            <li><a href=#>flower</a></li>
+                            <li><a href=#>bottle</a></li>
+                            <li><a href=#>acc</a></li>
+                        </ul>
+                    </nav><!--nav1끝-->
+                    <!--clear-->
+                </div><!--inner끝-->
+            </header><!--header끝-->
+            <section class="section1">
+                <div class="sec1_wrapBox">
+                    <div class="inner">
+                            <div class="sec1_box">
+                                <h1>floral<br> dry flower</h1>
+                                <h2>pleasure in daily</h2>
+                                <p>TongRo Images Inc. will continue to expand 
+                                    and become a core of the image content 
+                                    industry based on its earnest, passionate 
+                                    and creative spirit.</p>
+                            </div><!--sec1_box끝-->
+                    </div><!--inner끝-->
+                </div><!--sec1_wrapBox끝-->
+            </section><!--section1끝-->
+            <section class="section2">
+                <div class="inner">
+                    <nav class="nav2">
+                        <ul>
+                            <li><a href="#">herb</a></li>
+                            <li><a href="#">flower</a></li>
+                            <li><a href="#">bottle</a></li>
+                            <li><a href="#">acc</a></li>
+                            <!--clear-->
+                        </ul>
+                    </nav>
+                    <div class="slide">
+                        <div class="slide_img"><img src="images/sldie_01.jpg" alt="슬라이드이미지1"></div>
+                        <div class="prev"><img src="images/arr_left.png" alt="이전버튼"></div>
+                        <div class="next"><img src="images/arr_right.png" alt="다음버튼"></div>
+                        <div class="pager">
+                            <span class="active"><img src="images/indi_03.png" alt="페이지1"></span>
+                            <img src="images/indi_03.png" alt="페이지2">
+                            <img src="images/indi_03.png" alt="페이지3">
+                            <img src="images/indi_03.png" alt="페이지4">
+                            <img src="images/indi_03.png" alt="페이지5">
+                        </div>
+                    </div>
+                </div><!--inner끝-->
+            </section><!--section2끝-->
+            <section class="section3">
+                <div class="inner">
+                    <div class="typoBox">
+                        <h2># dry flower</h2>
+                    </div>
+                    <div class="photoBox">
+                        <div class="sec3_left">
+                            <img src="images/flower_05.jpg" alt="말린꽃다발 5묶음">
+                        </div>
+                        <div class="sec3_right">
+                            <div class="photo"><img src="images/flower_10.jpg" alt="말린장미꽃"></div>
+                            <div class="text"><h3><a href="#">weekly best</a></h3></div>
+                        </div>
+                    </div>
+                </div><!--inner끝-->
+            </section><!--section3끝-->
+            <section class="section4">
+                <div class="inner">
+                    <h3>pleasure in daily</h3>
+                    <p>TongRo Images Inc. has been growing along with the creative photographers,<br>
+                        enthusiastic directors and inquisitive content developers aiming for “new creative” mind. </p>
+                    <ul class="iconList">
+                        <li><a href="#"><img src="images/icon1.png" alt="달력아이콘"></a></li>
+                        <li><a href="#"><img src="images/icon2.png" alt="김이 올라오는 따듯한 머그컵 아이콘"></a></li>
+                        <li><a href="#"><img src="images/icon3.png" alt="시계아이콘"></a></li>
+                    </ul>
+                </div><!--inner끝-->
+            </section><!--section4끝-->
+            <footer>
+                <div class="inner">
+                    <p>copyright (C) Clipartkorea. aLL RIGHT RESERVED.</p>
+                </div>
+            </footer><!--footer끝-->
+    </div><!--wrap끝-->
+</body>
+</html>
